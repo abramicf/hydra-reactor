@@ -30,6 +30,10 @@ app.factory('User', function($http) {
     ]
   };  //THIS IS DUMMY DATA - OUR LOCAL DATA WILL ERASE EVERY TIME WE NEED TO REFRESH PAGE WITH A CHANGE TO THE CODE, SO DUMMY DATA IN THE CODE KEEPS IT PERSISTENT.
   var trip;
+
+
+
+
   //get request to pull in user info
   var newSignUp = function(email, password) {
     console.log('newSignUp is getting invoked!');
